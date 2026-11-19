@@ -12,8 +12,8 @@ Presentación, sobre mí, habilidades, formación, idiomas y contacto. La secci�
 index.html
 assets/
   css/styles.css
-  js/content.js
   js/main.js
+  js/effects.js
   img/favicon.svg
 docs/WORKFLOW.md
 .gitignore
@@ -24,7 +24,9 @@ README.md
 
 Abre `index.html` en el navegador o utiliza Live Server desde VS Code. No requiere npm, compilación ni dependencias externas.
 
-Los textos, enlaces y proyectos se pueden actualizar en **`assets/js/content.js`**. Los estilos se encuentran en `assets/css/styles.css`.
+Los textos, enlaces y proyectos se pueden actualizar en **`index.html`**. Los estilos se encuentran en `assets/css/styles.css`.
+
+`assets/js/main.js` gestiona el menú. `assets/js/effects.js` añade las partículas, la inclinación del editor y las apariciones al hacer scroll. El contenido y los enlaces están disponibles desde el HTML.
 
 ## Publicación con GitHub Pages
 
@@ -39,7 +41,7 @@ https://duvancalderon.github.io/portafolio-personal/
 
 [Mi portafolio personal — Notion](https://app.notion.com/p/41d60fb53673807daa20dc2a61304335)
 
-El contenido no se sincroniza automáticamente: revisa y aprueba los cambios en Notion y trasládalos a `assets/js/content.js`.
+El contenido no se sincroniza automáticamente: revisa y aprueba los cambios en Notion y trasládalos a `index.html`.
 
 ## Próximas mejoras
 

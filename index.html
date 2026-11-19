@@ -1,101 +1,400 @@
 <!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#090c14">
-  <meta name="description" content="Portafolio de Duván Calderón: estudiante de Ingeniería de Sistemas, desarrollo web y proyectos interactivos.">
-  <meta property="og:title" content="Duván Calderón — Portafolio">
-  <meta property="og:description" content="Desarrollo web, aprendizaje práctico y proyectos con intención.">
-  <meta property="og:type" content="website">
-  <title>Duván Calderón | Desarrollo web</title>
-  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/content.js" defer></script>
-  <script src="assets/js/main.js" defer></script>
-
-</head>
-<body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <div class="site-shell" id="inicio">
-    <header class="site-header">
-      <div class="wrap nav-inner">
-        <a class="brand" href="#inicio" aria-label="Duván Calderón, inicio"><span class="brand-symbol">DC<span class="accent-mark">.</span></span><span class="brand-name">Duván Calderón</span></a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú"><span></span><span></span><span></span></button>
-        <nav class="nav-links" id="nav-links" aria-label="Navegación principal">
-          <a href="#sobre-mi">Sobre mí</a>
-          <a href="#habilidades">Habilidades</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#trayectoria">Trayectoria</a>
-          <a class="nav-contact" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
-        </nav>
-      </div>
-    </header>
-
-    <main id="contenido">
-      <section class="hero wrap" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="signal-dot" aria-hidden="true"></span> PORTAFOLIO PERSONAL <span class="eyebrow-line" aria-hidden="true"></span> <span id="hero-location">COLOMBIA</span></div>
-          <p class="hero-hello">Hola, soy <span id="hero-name">Duván.</span></p>
-          <h1 id="hero-title">Construyo ideas <span>para la web.</span></h1>
-          <p class="hero-description" id="hero-description">Estudiante de Ingeniería de Sistemas e Informática, interesado en crear experiencias web útiles y aprender construyendo proyectos reales.</p>
-          <div class="hero-cta">
-            <a href="#proyectos" class="button button-primary">Explorar proyectos <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/DuvanCalderon" id="github-hero" target="_blank" rel="noopener noreferrer" class="button button-secondary">Mi GitHub <span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="hero-meta"><span class="meta-icon" aria-hidden="true">✳</span> <span id="hero-tagline">Curiosidad, código y mejora continua.</span></div>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#05070D" />
+    <meta
+      name="description"
+      content="Portafolio de Duván Calderón, estudiante de Ingeniería de Sistemas e Informática en la Universidad Nacional de Colombia. Desarrollo web y aprendizaje práctico."
+    />
+    <meta property="og:title" content="Duván Calderón — Portafolio" />
+    <meta
+      property="og:description"
+      content="Portafolio de desarrollo web y aprendizaje práctico de un estudiante de Ingeniería de Sistemas e Informática."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://duvancalderon.github.io/portafolio-personal/"
+    />
+    <meta property="og:locale" content="es_CO" />
+    <title>Duván Steven Calderón Taborda | Desarrollo web</title>
+    <link
+      rel="canonical"
+      href="https://duvancalderon.github.io/portafolio-personal/"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/effects.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="site-shell" id="inicio">
+      <header class="site-header">
+        <div class="wrap nav-inner">
+          <a class="brand" href="#inicio"
+            ><span class="brand-symbol" aria-hidden="true"
+              >DC<span class="accent-mark">.</span></span
+            ><span class="brand-name">Duvan Calderón</span></a
+          >
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Menú principal"
+            hidden
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <nav
+            class="nav-links"
+            id="nav-links"
+            aria-label="Navegación principal"
+          >
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#trayectoria">Trayectoria</a>
+            <a class="nav-contact" href="#contacto"
+              >Contacto <span aria-hidden="true">↗</span></a
+            >
+          </nav>
         </div>
-        <div class="hero-art" aria-label="Ilustración abstracta de una interfaz de desarrollo">
-          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-          <div class="art-glow"></div>
-          <div class="editor-card" aria-hidden="true">
-            <div class="editor-header"><div class="editor-dots"><i></i><i></i><i></i></div><span>portfolio / about.js</span><span class="editor-code-icon">⌘</span></div>
-            <div class="editor-code">
-              <div><span class="line-num">01</span> <span class="code-violet">const</span> <span class="code-blue">developer</span> = {</div>
-              <div><span class="line-num">02</span> &nbsp;name: <span class="code-teal">'Duván'</span>,</div>
-              <div><span class="line-num">03</span> &nbsp;focus: <span class="code-teal">'web'</span>,</div>
-              <div><span class="line-num">04</span> &nbsp;mindset: <span class="code-teal">'learn & build'</span>,</div>
-              <div><span class="line-num">05</span> &nbsp;curiosity: <span class="code-orange">true</span></div>
-              <div><span class="line-num">06</span> };<span class="editor-cursor"></span></div>
+      </header>
+
+      <main id="contenido" tabindex="-1">
+        <section class="hero wrap" aria-labelledby="hero-title">
+          <div class="hero-atmosphere" aria-hidden="true">
+            <canvas class="hero-particles" width="1" height="1"></canvas>
+          </div>
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="signal-dot" aria-hidden="true"></span> PORTAFOLIO
+              PERSONAL <span class="eyebrow-line" aria-hidden="true"></span>
+              <span>MEDELLÍN · COLOMBIA</span>
             </div>
-            <div class="editor-footer"><span><span class="green-dot"></span> ready to build</span><span>UTF-8 &nbsp;·&nbsp; JS</span></div>
+            <p class="hero-hello">Hola, soy <span>Duvan.</span></p>
+            <h1 id="hero-title">
+              Convierto ideas <span>en soluciones web.</span>
+            </h1>
+            <p class="hero-description">
+              Soy estudiante de Ingeniería de Sistemas e Informática en la
+              Universidad Nacional de Colombia sede Medellín. Me interesa crear
+              herramientas prácticas que resuelvan problemas reales y mejoren la
+              experiencia de las personas.
+            </p>
+            <div class="hero-cta">
+              <a href="#proyectos" class="button button-primary"
+                >Explorar proyectos <span aria-hidden="true">↗</span></a
+              >
+              <a
+                href="https://github.com/DuvanCalderon"
+                id="github-hero"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button button-secondary"
+                >Mi GitHub <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <div class="hero-meta">
+              <span class="meta-icon" aria-hidden="true">✳</span>
+              <span>Curiosidad · Aprendizaje práctico · Mejora continua</span>
+            </div>
           </div>
-          <div class="floating-label" aria-hidden="true"><span class="floating-icon">&lt;/&gt;</span><div><strong>BUILD · LEARN · IMPROVE</strong><small>Soluciones con intención</small></div></div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="art-glow"></div>
+            <div class="editor-card">
+              <div class="editor-header">
+                <div class="editor-dots"><i></i><i></i><i></i></div>
+                <span>portfolio / about.js</span
+                ><span class="editor-code-icon">⌘</span>
+              </div>
+              <div class="editor-code">
+                <div>
+                  <span class="line-num">01</span>
+                  <span class="code-keyword">const</span>
+                  <span class="code-variable">developer</span> = {
+                </div>
+                <div>
+                  <span class="line-num">02</span> &nbsp;name:
+                  <span class="code-string">'Duván'</span>,
+                </div>
+                <div>
+                  <span class="line-num">03</span> &nbsp;focus:
+                  <span class="code-string">'web'</span>,
+                </div>
+                <div>
+                  <span class="line-num">04</span> &nbsp;mindset:
+                  <span class="code-string">'learn &amp; build'</span>,
+                </div>
+                <div>
+                  <span class="line-num">05</span> &nbsp;curiosity:
+                  <span class="code-literal">true</span>
+                </div>
+                <div>
+                  <span class="line-num">06</span> };<span
+                    class="editor-cursor"
+                  ></span>
+                </div>
+              </div>
+              <div class="editor-footer">
+                <span
+                  ><span class="editor-status-dot"></span> ready to build</span
+                ><span>UTF-8 &nbsp;·&nbsp; JS</span>
+              </div>
+            </div>
+            <div class="floating-label">
+              <span class="floating-icon">&lt;/&gt;</span>
+              <div>
+                <strong>BUILD · LEARN · IMPROVE</strong
+                ><small>Soluciones con intención</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section section-about"
+          id="sobre-mi"
+          tabindex="-1"
+          aria-labelledby="about-title"
+        >
+          <div class="wrap split-layout">
+            <div class="section-heading">
+              <span class="section-index">01 / SOBRE MÍ</span>
+              <h2 id="about-title">Más allá del <span>código.</span></h2>
+            </div>
+            <div class="about-content">
+              <p class="lead">
+                Para mí, programar tiene algo de superpoder: permite transformar
+                una idea en una herramienta que otras personas pueden utilizar.
+              </p>
+              <p>
+                Disfruto aprender haciendo, investigar por qué funcionan las
+                cosas y convertir necesidades cotidianas en soluciones
+                sencillas. Fuera del código me interesan los idiomas, el
+                ejercicio físico y la música, especialmente tocar el arpa.
+              </p>
+              <ul class="about-principles" role="list">
+                <li class="principle">Resolver problemas reales</li>
+                <li class="principle">Aprender construyendo</li>
+                <li class="principle">Diseñar con propósito</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section"
+          id="habilidades"
+          tabindex="-1"
+          aria-labelledby="skills-title"
+        >
+          <div class="wrap">
+            <div class="section-top">
+              <div>
+                <span class="section-index">02 / HABILIDADES</span>
+                <h2 id="skills-title">
+                  Herramientas para <span>crear soluciones.</span>
+                </h2>
+              </div>
+              <p class="section-description">
+                Tecnologías con las que trabajo y otras que continúo
+                aprendiendo.
+              </p>
+            </div>
+            <div class="skills-layout">
+              <div class="skill-panel">
+                <h3 class="panel-label">
+                  <span class="panel-indicator" aria-hidden="true"></span> BUEN
+                  MANEJO
+                </h3>
+                <ul class="skill-tags" role="list">
+                  <li class="skill-tag">HTML</li>
+                  <li class="skill-tag">CSS</li>
+                  <li class="skill-tag">JavaScript</li>
+                </ul>
+              </div>
+              <div class="skill-panel">
+                <h3 class="panel-label">
+                  <span
+                    class="panel-indicator indicator-secondary"
+                    aria-hidden="true"
+                  ></span>
+                  CONOCIMIENTOS EN
+                </h3>
+                <ul class="skill-tags" role="list">
+                  <li class="skill-tag learning">React</li>
+                  <li class="skill-tag learning">Node.js</li>
+                  <li class="skill-tag learning">Python</li>
+                  <li class="skill-tag learning">SQL</li>
+                </ul>
+              </div>
+              <div class="skill-panel tools-panel">
+                <h3 class="panel-label">
+                  <span class="panel-indicator" aria-hidden="true"></span>
+                  HERRAMIENTAS
+                </h3>
+                <ul class="skill-tags" role="list">
+                  <li class="skill-tag">Git</li>
+                  <li class="skill-tag">GitHub</li>
+                  <li class="skill-tag">VS Code</li>
+                  <li class="skill-tag">Linux / WSL</li>
+                </ul>
+              </div>
+            </div>
+            <p class="section-note">
+              Lo importante no es asignar porcentajes: es lo que puedo
+              construir, explicar y mejorar con cada herramienta.
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="section projects-section"
+          id="proyectos"
+          tabindex="-1"
+          aria-labelledby="projects-title"
+        >
+          <div class="wrap">
+            <div class="section-top">
+              <div>
+                <span class="section-index">03 / PROYECTOS</span>
+                <h2 id="projects-title">
+                  Mis proyectos, <span>en construcción.</span>
+                </h2>
+              </div>
+              <p class="section-description">
+                Estoy seleccionando y documentando mis proyectos más
+                representativos. Los incorporaré con demos, código y
+                aprendizajes.
+              </p>
+            </div>
+            <div class="projects-grid" id="projects-list">
+              <div class="projects-empty">
+                <div class="projects-empty-icon" aria-hidden="true">
+                  &lt;/&gt;
+                </div>
+                <h3>Próximamente: mis proyectos destacados</h3>
+                <p>
+                  Estoy preparando casos con sus objetivos, decisiones técnicas,
+                  resultados y enlaces para que puedas explorar el trabajo
+                  detrás de cada solución.
+                </p>
+              </div>
+            </div>
+            <div class="more-projects">
+              <a
+                href="https://duvancalderon.github.io/Demos/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mientras tanto, explora mis laboratorios web
+                <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section journey-section"
+          id="trayectoria"
+          tabindex="-1"
+          aria-labelledby="journey-title"
+        >
+          <div class="wrap split-layout">
+            <div class="section-heading">
+              <span class="section-index">04 / TRAYECTORIA</span>
+              <h2 id="journey-title">Siempre en <span>evolución.</span></h2>
+            </div>
+            <div class="journey-content">
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div>
+                  <div class="timeline-overline">FORMACIÓN</div>
+                  <h3>Ingeniería de Sistemas e Informática</h3>
+                  <p>Universidad Nacional de Colombia · Sede Medellín</p>
+                  <p>
+                    En formación, profundizando en fundamentos de software y
+                    construyendo experiencia práctica con proyectos y
+                    ejercicios.
+                  </p>
+                </div>
+              </div>
+              <div class="languages-section">
+                <h3 class="timeline-overline">IDIOMAS</h3>
+                <ul class="language-list" role="list">
+                  <li class="language-item">
+                    <strong>Español</strong><span>Nativo</span>
+                  </li>
+                  <li class="language-item">
+                    <strong>Inglés</strong><span>B2+</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="contact-section"
+          id="contacto"
+          tabindex="-1"
+          aria-labelledby="contact-title"
+        >
+          <div class="wrap">
+            <div class="contact-panel">
+              <span class="section-index">05 / CONTACTO</span>
+              <h2 id="contact-title">¿Construimos <span>algo útil?</span></h2>
+              <p>
+                ¿Tienes una oportunidad, una idea o te gustaría conectar? Puedes
+                escribirme o conocer más de mi trabajo en GitHub y LinkedIn.
+              </p>
+              <div class="contact-actions">
+                <a
+                  class="button button-primary"
+                  href="https://github.com/DuvanCalderon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub <span aria-hidden="true">↗</span></a
+                >
+                <a
+                  class="button button-secondary"
+                  href="https://www.linkedin.com/in/duvancalderon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn <span aria-hidden="true">↗</span></a
+                >
+                <a
+                  class="button button-secondary"
+                  href="mailto:duvanscalderont16@gmail.com"
+                  >Enviar correo <span aria-hidden="true">↗</span></a
+                >
+              </div>
+              <div class="contact-detail">
+                Diseñado para crecer, igual que mis proyectos.
+                <span aria-hidden="true">✦</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="wrap footer-inner">
+          <a
+            href="#inicio"
+            class="footer-logo"
+            aria-label="DC, volver al inicio"
+            >DC<span>.</span></a
+          ><span>© Duvan Calderón</span
+          ><span>Hecho con HTML, CSS y JavaScript.</span>
         </div>
-      </section>
-
-      <section class="section section-about" id="sobre-mi" aria-labelledby="about-title">
-        <div class="wrap split-layout">
-          <div class="section-heading"><span class="section-index">01 / SOBRE MÍ</span><h2 id="about-title">Más allá del <span>código.</span></h2></div>
-          <div class="about-content"><p class="lead" id="about-lead"></p><p id="about-detail"></p><div class="about-principles" id="about-principles"></div></div>
-        </div>
-      </section>
-
-      <section class="section" id="habilidades" aria-labelledby="skills-title">
-        <div class="wrap">
-          <div class="section-top"><div><span class="section-index">02 / HABILIDADES</span><h2 id="skills-title">Herramientas para <span>crear soluciones.</span></h2></div><p class="section-description">Tecnologías con las que trabajo y otras que continúo aprendiendo.</p></div>
-          <div class="skills-layout"><div class="skill-panel"><div class="panel-label"><span class="panel-indicator"></span> BUEN MANEJO</div><div class="skill-tags" id="skills-practice"></div></div><div class="skill-panel"><div class="panel-label"><span class="panel-indicator indicator-secondary"></span> CONOCIMIENTOS EN</div><div class="skill-tags" id="skills-learning"></div></div><div class="skill-panel tools-panel"><div class="panel-label"><span class="panel-indicator"></span> HERRAMIENTAS</div><div class="skill-tags" id="skills-tools"></div></div></div>
-          <p class="section-note">Lo importante no es asignar porcentajes: es lo que puedo construir, explicar y mejorar con cada herramienta.</p>
-        </div>
-      </section>
-
-      <section class="section projects-section" id="proyectos" aria-labelledby="projects-title">
-        <div class="wrap">
-          <div class="section-top"><div><span class="section-index">03 / PROYECTOS</span><h2 id="projects-title">Mis proyectos, <span>en construcción.</span></h2></div><p class="section-description">Estoy seleccionando y documentando mis proyectos más representativos. Los incorporaré con demos, código y aprendizajes.</p></div>
-          <div class="projects-grid" id="projects-list"></div>
-          <div class="more-projects"><a href="https://duvancalderon.github.io/Demos/" target="_blank" rel="noopener noreferrer">Mientras tanto, explora mis laboratorios web <span aria-hidden="true">↗</span></a></div>
-        </div>
-      </section>
-
-      <section class="section journey-section" id="trayectoria" aria-labelledby="journey-title">
-        <div class="wrap split-layout"><div class="section-heading"><span class="section-index">04 / TRAYECTORIA</span><h2 id="journey-title">Siempre en <span>evolución.</span></h2></div><div class="journey-content"><div class="timeline-item"><div class="timeline-marker"></div><div><div class="timeline-overline">FORMACIÓN</div><h3 id="education-program">Ingeniería de Sistemas e Informática</h3><p id="education-school">Universidad Nacional de Colombia</p><p id="education-description">Aprendiendo fundamentos de software y aplicándolos en proyectos prácticos.</p></div></div><div class="languages-section"><div class="timeline-overline">IDIOMAS</div><div class="language-list" id="languages-list"></div></div></div></div>
-      </section>
-
-      <section class="contact-section" id="contacto" aria-labelledby="contact-title"><div class="wrap"><div class="contact-panel"><span class="section-index">05 / CONTACTO</span><h2 id="contact-title">¿Construimos <span>algo útil?</span></h2><p id="contact-description">¿Tienes una oportunidad, una idea o te gustaría conectar? Puedes escribirme o conocer más de mi trabajo.</p><div class="contact-actions" id="contact-actions"></div><div class="contact-detail">Diseñado para crecer, igual que mis proyectos. <span aria-hidden="true">✦</span></div></div></div></section>
-    </main>
-    <footer class="footer"><div class="wrap footer-inner"><a href="#inicio" class="footer-logo">DC<span>.</span></a><span>© <span id="copyright-year"></span> Duván Calderón</span><span>Hecho con HTML, CSS y JavaScript.</span></div></footer>
-  </div>
-
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
