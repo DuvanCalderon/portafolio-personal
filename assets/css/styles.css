@@ -815,6 +815,12 @@ p {
   gap: 12px;
   flex-wrap: wrap;
 }
+.contact-email a {
+  color: var(--sky);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
 .contact-detail {
   border-top: 1px solid #29415f;
   margin-top: 55px;
