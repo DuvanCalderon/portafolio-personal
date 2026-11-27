@@ -17,7 +17,17 @@ Primera versión de mi sitio personal de desarrollo web, construido con **HTML, 
 
 ## Contenido
 
-Presentación, sobre mí, habilidades, formación, idiomas y contacto. La sección de proyectos destacados está preparada para añadir más adelante las fichas y demostraciones.
+Presentación, sobre mí, habilidades, proyectos destacados, formación, idiomas y contacto.
+
+## Proyectos destacados
+
+### Capi Bolis — catálogo y pedidos (MVP)
+
+Aplicación web para un emprendimiento de bolis gourmet caseros. Incluye catálogo filtrable de siete sabores, carrito interactivo, descuentos automáticos por volumen y validación de datos para preparar pedidos por WhatsApp. Diseño responsive y pruebas automatizadas de carrito y pedidos. El prototipo no procesa pagos ni confirma pedidos automáticamente.
+
+**Tecnologías:** HTML, CSS, JavaScript (ES Modules), Node.js para pruebas y GitHub Actions.
+
+[Ver demo](https://duvancalderon.github.io/Capi-bolis/) · [Código fuente](https://github.com/DuvanCalderon/Capi-bolis)
 
 ## Estructura
 
@@ -29,6 +39,7 @@ assets/
   js/effects.js
   img/favicon.svg
   img/perfil.webp
+  img/capi-bolis.webp
 docs/WORKFLOW.md
 .gitignore
 README.md
@@ -59,9 +70,9 @@ El contenido no se sincroniza automáticamente: revisa y aprueba los cambios en 
 
 ## Próximas mejoras
 
-- Seleccionar proyectos destacados y documentar la contribución personal.
+- Incorporar más proyectos destacados y documentar la contribución personal.
 - Integrar el CV cuando esté listo para publicación.
 - Revisar accesibilidad, rendimiento y diseño responsive con Codex y `modern-web-guidance`.
 - Evaluar versión en inglés.
 
-> **Versión 1**: base del portafolio. No se han añadido proyectos ni experiencia ficticia.
+> Portafolio en evolución, con proyectos documentados y enlaces a su código fuente.

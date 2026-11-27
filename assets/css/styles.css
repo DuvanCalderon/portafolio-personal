@@ -1228,3 +1228,89 @@ p {
     border-color: CanvasText;
   }
 }
+
+/* Proyecto destacado: identidad visual de Capi Bolis dentro del portafolio. */
+.project-featured {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+}
+.project-capi-visual {
+  height: auto;
+  min-height: 280px;
+  flex-direction: column;
+  gap: 8px;
+  padding: 42px 20px 32px;
+  background: radial-gradient(circle at 25% 20%, #fff5e8, transparent 70%), linear-gradient(135deg, #ffc8c5, #7fc6c2);
+  border-bottom: 0;
+  border-right: 1px solid #29435f;
+  color: #283e38;
+}
+.project-capi-visual img {
+  display: block;
+  width: min(160px, 65%);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: 22px;
+}
+.project-capi-visual .project-number {
+  color: #354c46;
+}
+.project-capi-brand {
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+}
+.project-capi-caption {
+  font-size: 13px;
+  font-weight: 650;
+}
+.project-featured .project-body {
+  padding: clamp(22px, 3.2vw, 36px);
+}
+.project-featured .project-body h3 {
+  font-size: 28px;
+}
+.project-featured .project-body p {
+  flex: 0 0 auto;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.project-features {
+  padding-left: 18px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #cbd5e9;
+}
+.project-features li + li {
+  margin-top: 5px;
+}
+.project-features li::marker {
+  color: #7dd3fc;
+}
+.project-featured .project-mvp-note {
+  font-size: 12px;
+  color: #a6b5cd;
+}
+.project-featured .project-links {
+  margin-top: auto;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+@media (max-width: 760px) {
+  .project-featured {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .project-capi-visual {
+    min-height: 230px;
+    padding: 35px 20px 24px;
+    border-right: 0;
+    border-bottom: 1px solid #29435f;
+  }
+  .project-capi-visual img {
+    width: 120px;
+  }
+}
