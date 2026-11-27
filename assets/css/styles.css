@@ -1192,3 +1192,39 @@ p {
     display: none;
   }
 }
+
+/* Retrato profesional: visible desde la presentación, sin JavaScript. */
+.hero-intro {
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 3vw, 24px);
+  margin: 24px 0 16px;
+}
+.hero-intro .hero-hello {
+  margin: 0;
+}
+.hero-portrait {
+  display: block;
+  flex: 0 0 auto;
+  width: clamp(112px, 14vw, 152px);
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 2px solid #60a5fa;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px #02061780, 0 0 24px #2477ff35;
+}
+@media (max-width: 760px) {
+  .hero-intro {
+    margin: 20px 0 14px;
+  }
+  .hero-portrait {
+    width: 112px;
+    border-radius: 16px;
+  }
+}
+@media (forced-colors: active) {
+  .hero-portrait {
+    border-color: CanvasText;
+  }
+}

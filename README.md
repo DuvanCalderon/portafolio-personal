@@ -1,5 +1,18 @@
 # Portafolio personal — Duván Calderón
 
+<p align="center">
+  <img src="assets/img/perfil.webp" alt="Retrato profesional de Duván Calderón" width="200" />
+</p>
+
+<p align="center">
+  <strong>Ingeniería de Sistemas e Informática · Desarrollo web</strong><br />
+  Universidad Nacional de Colombia · Medellín
+</p>
+
+<p align="center">
+  <a href="https://duvancalderon.github.io/portafolio-personal/">Ver portafolio web</a>
+</p>
+
 Primera versión de mi sitio personal de desarrollo web, construido con **HTML, CSS y JavaScript**.
 
 ## Contenido
@@ -15,6 +28,7 @@ assets/
   js/main.js
   js/effects.js
   img/favicon.svg
+  img/perfil.webp
 docs/WORKFLOW.md
 .gitignore
 README.md
@@ -46,7 +60,7 @@ El contenido no se sincroniza automáticamente: revisa y aprueba los cambios en 
 ## Próximas mejoras
 
 - Seleccionar proyectos destacados y documentar la contribución personal.
-- Integrar fotografías personales y CV cuando estén listos para publicación.
+- Integrar el CV cuando esté listo para publicación.
 - Revisar accesibilidad, rendimiento y diseño responsive con Codex y `modern-web-guidance`.
 - Evaluar versión en inglés.
 
